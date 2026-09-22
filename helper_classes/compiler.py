@@ -9,11 +9,11 @@ This is the "facade" that main.py talks to; it is the only module that
 needs to know about every other module in the package.
 """
 
-from tokens import TokenType, TYPE_KEYWORDS, literal_type_of
-from error_handler import ErrorHandler
-from symbol_table import SymbolTable
-from lexer import Lexer
-from parser import Parser
+from .tokens import TokenType, TYPE_KEYWORDS, literal_type_of
+from .error_handler import ErrorHandler
+from .symbol_table import SymbolTable
+from .lexer import Lexer
+from .parser import Parser
 
 
 class Compiler:

@@ -11,7 +11,7 @@ report several related errors at once, e.g. a missing '{' cascading
 into a "missing '}'" error too).
 """
 
-from statements import IfStatement, SwitchStatement, CaseClause, SimpleStatement
+from .statements import IfStatement, SwitchStatement, CaseClause, SimpleStatement
 
 
 class Parser:

@@ -18,8 +18,8 @@ OOP requirements implemented here:
 
 from abc import ABC, abstractmethod
 
-from tokens import literal_type_of
-from expression_utils import check_condition_is_boolean, get_operand_type
+from .tokens import literal_type_of
+from .expression_utils import check_condition_is_boolean, get_operand_type
 
 
 class Statement(ABC):

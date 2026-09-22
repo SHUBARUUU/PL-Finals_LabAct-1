@@ -8,7 +8,7 @@ analyze, and runs it through the Compiler facade.
 Run with:  python main.py
 """
 
-from compiler import Compiler
+from helper_classes.compiler import Compiler
 
 
 def read_declare_section():
@@ -16,6 +16,7 @@ def read_declare_section():
     print("Format: declare <type> <name> = <value>;   (types: int, string, bool, double, char)")
     print("Type 'end' on its own line when finished, or 'skip' if there are none.\n")
     lines = []
+    
     while True:
         line = input("declare> ").strip()
         if line.lower() == "skip":

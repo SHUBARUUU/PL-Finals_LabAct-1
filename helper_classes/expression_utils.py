@@ -14,7 +14,7 @@ needs to do.
 Used by both IfStatement and SwitchStatement in statements.py.
 """
 
-from tokens import TokenType, literal_type_of
+from .tokens import TokenType, literal_type_of
 
 ORDERABLE = {"int", "double", "char"}         # types that support <, >, <=, >=
 EQUATABLE_ONLY = {"string", "bool"}           # types that only support ==, !=

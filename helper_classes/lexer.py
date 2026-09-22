@@ -8,7 +8,7 @@ still form one valid lexeme, e.g. '=' then '=' becomes the single
 token '==' rather than two separate '=' tokens).
 """
 
-from tokens import Token, TokenType, KEYWORDS
+from .tokens import Token, TokenType, KEYWORDS
 
 
 class Lexer:
